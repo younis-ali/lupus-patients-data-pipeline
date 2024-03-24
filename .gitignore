@@ -1,4 +1,7 @@
-gx/
+gx/checkpoints/
+gx/plugins/
+gx/profilers/
+gx/great_expectations.yml
 .ipynb_checkpoints/
 .venv/
 airflow/.airflow-venv/
