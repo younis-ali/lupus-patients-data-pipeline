@@ -3,6 +3,12 @@
 
 EDA, pipelining and Analysis on a sample health care data
 
+## Screen Shots
+1. Database schema
+   ![Health Care Data (1)](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/6d795656-f60b-49c1-9f39-0429f6c50007)
+
+3. Data Pipeline
+   ![image](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/aa9cecef-6907-4f3a-bf3b-2e8ef8732a4a)
 
 
 # Usage
@@ -83,8 +89,6 @@ In cleaning process I check the data quality issues using great expectations. Th
 ### 4. Merge
 1. On the basis of patient_id we merge the whole data into a singe csv `./processed_data/merged_data`
 3. This merged data can be accessed in jupyter notebook for Data Analysis purpose.
-
-
 
 ## Data Analysis
 ### Tools and technologies used in this project
