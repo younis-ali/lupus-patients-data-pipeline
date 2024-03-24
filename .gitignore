@@ -1,0 +1,11 @@
+gx/
+.ipynb_checkpoints/
+.venv/
+airflow/.airflow-venv/
+airflow/data/*
+airflow/logs/
+airflow/processed_data/
+airflow/dags/__pycache__/
+airflow/airflow.cfg
+airflow/airflow.db
+airflow/webserver_config.py

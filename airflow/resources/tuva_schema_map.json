@@ -1,0 +1,69 @@
+{
+    "patient_map" :
+    {
+        "PATIENT_ID": "patient_id",
+        "BIRTHDATE": "birth_date",
+        "DEATHDATE": "death_date",
+        "FIRST": "first_name",
+        "LAST": "last_name",
+        "RACE": "race",
+        "GENDER": "sex",
+        "ADDRESS" :"address",
+        "ETHNICITY": "ethnicity",
+        "CITY": "city",
+        "STATE": "state",
+        "COUNTY": "county",
+        "FIPS": "fips_code",
+        "ZIP": "zip_code",
+        "LAT": "latitude",
+        "LON": "longitude"
+    },
+
+    "condition_map":
+    {
+        "START":  "recorded_date",
+        "STOP":  "resolved_date",
+        "PATIENT":  "patient_id",
+        "ENCOUNTER":  "encounter_id",
+        "CODE":  "source_code",
+        "DESCRIPTION":  "source_description"
+
+    },
+
+    "encounter_map":
+    {
+        "Id": "encounter_id",
+        "START": "encounter_start_date",
+        "STOP": "encounter_end_date",
+        "PATIENT": "patient_id",
+        "PROVIDER": "attending_provider_id",
+        "ENCOUNTERCLASS": "encounter_type",
+        "CODE": "admit_source_code",
+        "DESCRIPTION": "admit_source_description",
+        "BASE_ENCOUNTER_COST": "charge_amount",
+        "TOTAL_CLAIM_COST": "allowed_amount",
+        "PAYER_COVERAGE": "paid_amount",
+        "REASONCODE": "ms_drg_code",
+        "REASONDESCRIPTION": "ms_drg_description"
+    },
+
+    "medication_map":
+    {
+        "START": "dispensing_date",
+        "STOP": "prescribing_date",
+        "PATIENT": "patient_id",
+        "ENCOUNTER": "encounter_id",
+        "CODE": "medication_id",
+        "DESCRIPTION": "source_description",
+        "REASONCODE": "practitioner_id"
+    },
+
+    "symptoms_map":
+    
+    {
+        "PATIENT": "patient_id",
+        "ID" : "observation_id"
+    }
+
+
+}
