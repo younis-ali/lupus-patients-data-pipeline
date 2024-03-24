@@ -5,7 +5,8 @@ EDA, pipelining and Analysis on a sample health care data
 
 ## Screen Shots
 1. Database schema
-   ![Health Care Data (1)](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/6d795656-f60b-49c1-9f39-0429f6c50007)
+
+  ![Health Care Data (2)](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/f4206061-77ae-4d39-a781-505c09acd9dc)
 
 3. Data Pipeline
    ![image](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/aa9cecef-6907-4f3a-bf3b-2e8ef8732a4a)
