@@ -28,24 +28,26 @@ Perform data engineering on healthcare data by applying EDA and data corectness 
 
     a. `$export AIRFLOW_HOME="$(pwd)"` fire this command from `./airflow` directory
 
-    b. then pip install by following docs
-
-    c. `$airflow db init`
+    b. `$pip` [install by following docs]
+   
+5. Run the service
+    a. `$airflow db init`
     
-    d. `$airflow db migrate`
+    b. `$airflow db migrate`
     
-    e. `airflow users create \
+    c. `airflow users create \
     --username admin \
     --firstname Younis \
     --lastname Ali \
     --role Admin \
     --email man@super.org`
 
-    f. `$airflow standalone`
+   Or simply fire the following command that will execute all the above commands. The following command will create the user `admin` with password
+    a. `$airflow standalone`
 
-5. Then visit http://0.0.0.0:8080/dags/health_data/grid to trigger the pipeline.
+7. Then visit http://0.0.0.0:8080/dags/health_data/grid to trigger the pipeline.
 
-6. Before trigger the pipeline make sure you have required files in `airflow/data/` directory in the given format.
+8. Before trigger the pipeline make sure you have required files in `airflow/data/` directory in the given format.
 # Data Assessment
 ## Database schema
 Visit the link to see database schema that gives sense how different tables are linked [Database Schema](https://miro.com/app/board/uXjVKe8-jzA=/?share_link_id=25922620625)
