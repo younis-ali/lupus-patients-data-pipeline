@@ -9,7 +9,9 @@ Perform data engineering on healthcare data by applying EDA and data corectness 
   ![Health Care Data (2)](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/f4206061-77ae-4d39-a781-505c09acd9dc)
 
 2. Data Pipeline
-   ![image](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/aa9cecef-6907-4f3a-bf3b-2e8ef8732a4a)
+   
+   ![Screenshot from 2024-03-26 15-09-42](https://github.com/younis-ali/lupus-patients-data-pipeline/assets/32736581/eebd659c-6154-4588-93e1-4366bc30035b)
+
 
 
 # Usage
