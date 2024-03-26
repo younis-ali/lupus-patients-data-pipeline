@@ -31,6 +31,7 @@ Perform data engineering on healthcare data by applying EDA and data corectness 
     b. `$pip` [install by following docs]
    
 5. Run the service
+   
     a. `$airflow db init`
     
     b. `$airflow db migrate`
@@ -43,6 +44,7 @@ Perform data engineering on healthcare data by applying EDA and data corectness 
     --email man@super.org`
 
    Or simply fire the following command that will execute all the above commands. The following command will create the user `admin` with password
+   
     a. `$airflow standalone`
 
 7. Then visit http://0.0.0.0:8080/dags/health_data/grid to trigger the pipeline.
